@@ -1,0 +1,39 @@
+@media (min-device-width: 10px) and (max-device-width: 339px){
+    div {
+        background: forestgreen;
+        color: gold;
+        font-family: monospace;
+        font-size: 4em;
+    }
+}
+
+@media (min-device-width: 340px) and (max-device-width: 800px){
+    div {
+        background: burlywood;
+        color: firebrick;
+        font-family: cursive;
+        font-size: 4em;
+    }
+}
+
+@media (min-device-width: 801px) {
+    div {
+        background: lightblue;
+        color: black;
+        font-family: "Old English Text MT";
+        font-size: 4em;
+    }
+}
+
+@supports (display: flex) {
+    div {
+        display: flex;
+    }
+}
+
+@supports not (display: flex) {
+    div {
+        float: right;
+    }
+}
+
