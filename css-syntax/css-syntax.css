@@ -1,0 +1,16 @@
+div {
+    background: green;
+}
+div p {
+    color: white;
+}
+div h3 {
+    color: gold;
+}
+li {
+    color: blueviolet;
+}
+h3 {
+    color: lightcoral;
+    text-decoration : underline;
+}
