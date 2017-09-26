@@ -1,0 +1,10 @@
+div {
+    background: darkkhaki;
+}
+
+p {
+    padding: 4px 4px 3px 5px;
+    font: italic 2em monospace;
+    border: 2px dashed greenyellow;
+    margin: 10px 3px 4px 5px;
+}
