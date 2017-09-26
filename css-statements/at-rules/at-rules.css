@@ -1,0 +1,13 @@
+@import 'layout.css';
+
+div {
+    background: teal;
+}
+
+h3 {
+    color: gold;
+}
+
+p {
+    color: white;
+}
