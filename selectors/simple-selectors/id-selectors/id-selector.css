@@ -1,0 +1,12 @@
+#content-heading {
+    color: coral;
+    font-family: "Arial Black";
+}
+#introduction {
+    font-size: 2em;
+    color: darkkhaki;
+}
+#variants {
+    font-size: 1.4em;
+    text-decoration: underline;
+}
