@@ -1,0 +1,27 @@
+/* Descendant selector */
+section p {
+    color: darkmagenta;
+}
+/* Child selector */
+section > h2 {
+    color: crimson;
+}
+/* Adjacent sibling selector */
+h4 + p {
+  border: 2px dotted darkgreen;
+}
+/* General sibling selector */
+h2 ~ p {
+    border: 4px dashed cornflowerblue;
+    background: #b3eee3;
+}
+#uses-heading ~ .uses-description {
+    background: #9197ee;
+}
+div > h4 {
+    color: #21ee28;
+}
+
+div > #uses-heading {
+    color: darkcyan;
+}
