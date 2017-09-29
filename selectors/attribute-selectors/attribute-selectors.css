@@ -1,0 +1,55 @@
+/* Presence and value selectors */
+[food-items] {
+    border: 1px solid cornflowerblue;
+}
+[vegetable] {
+    color: green;
+    font-family: "Franklin Gothic Demi";
+}
+[food-description] {
+    color: darkblue;
+    font-size: 1.3em;
+}
+[vegetable="liquid"] {
+    background: gold;
+}
+[vegetable ~= "spicy"] {
+    color: red;
+}
+/* Substring selectors */
+[data-language |= "en"] {
+    color: dodgerblue;
+}
+[data-perf] {
+    font-weight: bold;
+}
+[lang $= "GB"] {
+    color: purple;
+    background-color: lightblue;
+
+}
+[data-perf ^= "inc"] {
+    text-decoration: underline;
+}
+[lang $= "US"] {
+    color: crimson;
+    background-color: darkkhaki;
+}
+[lang="es"] {
+    background-color: coral;
+    color: azure;
+}
+[lang="de"] {
+    background-color: green;
+    color: silver;
+}
+[data-perf $="pro"] {
+    font-style: italic;
+}
+[data-perf *="same"] {
+    font-family: "Berlin Sans FB";
+}
+
+[data-perf ^="dec"] {
+    border: 1px dashed #eee;
+}

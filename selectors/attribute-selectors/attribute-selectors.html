@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Attribute selectors</title>
+        <link rel="stylesheet" href="attribute-selectors.css">
+    </head>
+    <body>
+       <h2>Food Items</h2>
+       <div food-items>
+           <h3 vegetable>Potato</h3>
+           <p food-description>The potato is a starchy, tuberous crop from the perennial nightshade
+               Solanum tuberosum. The word "potato" may refer either to
+               the plant itself or to the edible tuber.
+           </p>
+           <h3 vegetable>Tomato</h3>
+           <p food-description>
+               The tomato (see pronunciation) is the edible fruit of Solanum lycopersicum,
+               commonly known as a tomato plant, which belongs to the nightshade family,
+               Solanaceae.
+           </p>
+           <h3 meat>Bacon</h3>
+           <p food-description>
+               The tomato (see pronunciation) is the edible fruit of Solanum lycopersicum,
+               commonly known as a tomato plant, which belongs to the nightshade family,
+               Solanaceae.
+           </p>
+           <h3 vegetable="not spicy">Bell Pepper</h3>
+           <p food-description>
+               The bell pepper (also known as sweet pepper or pepper in the United Kingdom,
+               Canada and Ireland
+           </p>
+           <h3 vegetable="liquid">Palm Oil</h3>
+           <p food-description>
+               Palm oil (also known as dendê oil[citation needed], from Portuguese [ˈdɛnde]) is an
+               edible vegetable oil derived from the mesocarp (reddish pulp) of the fruit of the oil
+               , primarily the African oil palm Elaeis guineensis.
+           </p>
+           <h3 vegetable="mild spicy"> Mexico chile</h3>
+           <p food-description>
+               New Mexico chile (or New Mexican chile) is a group of cultivars of the
+               chile pepper, initially developed by pioneer horticulturist, Dr. Fabián Garcia,
+               at New Mexico State University in 1894
+           </p>
+           <h3 vegetable="liquid">Olive Oil</h3>
+           <p food-description>
+               Olive oil is a liquid fat obtained from olives
+               (the fruit of Olea europaea; family Oleaceae), a traditional tree crop of the
+               Mediterranean Basin.
+           </p>
+       </div>
+        <div>
+            <h2 data-language="en-us">Football Teams</h2>
+            <ol>
+                <li lang="en-GB" data-perf="inc-pro">Manchester United</li>
+                <li lang="es" data-perf="same-pro">Barcelona</li>
+                <li lang="de" data-perf="dec">Bayern Munich</li>
+                <li lang="es" data-perf="same">Real Madrid</li>
+                <li lang="de" data-perf="inc-rel">Borussia Dortmund</li>
+                <li lang="en-GB" data-perf="dec-rel">Southampton FC</li>
+                <li lang="en-US" data-perf="dec-pro">FC Dallas</li>
+            </ol>
+        </div>
+    </body>
+</html>
