@@ -1,0 +1,21 @@
+.content::first-line {
+    color: goldenrod;
+    font-weight: bold;
+}
+.content::first-letter {
+    font-size: 1.6em;
+}
+[href ^= http]::after {
+    content: '⤴>';
+}
+[href ^= http]::before {
+    content: '<';
+}
+.content::selection {
+    color: azure;
+    background-color: darkblue;
+}
+::-moz-selection {
+    color: azure;
+    background-color: darkblue;
+}
