@@ -1,0 +1,53 @@
+/* Using pseudo classes */
+body {
+    background-color: #b3eee3;
+}
+a:hover {
+    color: gold;
+    text-decoration: none;
+}
+a:visited {
+    color: green;
+    text-decoration: underline;
+}
+li {
+    width: 50%;
+}
+li:nth-of-type(odd) {
+    background-color: black;
+    color: white;
+}
+li:nth-of-type(even) {
+    background-color: white;
+    color: black;
+}
+ul {
+    list-style-type: none;
+}
+[type="checkbox"]:checked {
+    display: none;
+}
+[type="text"]:read-write {
+    background-color: darkkhaki;
+}
+
+#zebra-types .types:nth-child(even) {
+    background-color: #9197ee;
+    color: #fff;
+}
+.types {
+    width: 70%;
+}
+#zebra-types .types:nth-child(odd) {
+    background-color: lightcoral;
+    color: #fff;
+}
+p:not(.introduction) {
+    color: darkblue;
+    font-family: "Bell MT";
+    font-size: 1.2em;
+}
+.introduction {
+    color: crimson;
+    font-size: 1.3em;
+}
