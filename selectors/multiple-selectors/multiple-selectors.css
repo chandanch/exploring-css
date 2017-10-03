@@ -1,0 +1,30 @@
+table {
+    font: 1em sans-serif;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th, td {
+    border: 2px solid darkblue;
+}
+table thead th {
+    background-color: green;
+    color: white;
+}
+table tbody tr:nth-child(odd) {
+    color: black;
+    background-color: silver;
+}
+table tbody tr:nth-of-type(even) {
+    background-color: lightcoral;
+    color: greenyellow;
+}
+[lang="en-UK"] tbody td:last-child::before {
+    content: '€';
+}
+tbody td {
+    text-align: center;
+}
+tfoot > tr {
+    color: crimson;
+}
