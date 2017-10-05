@@ -1,0 +1,30 @@
+/*
+ Using absolute units
+ */
+p {
+    border: 2px solid #ee9b2d;
+    background-color: lightblue;
+    color: black;
+}
+p:nth-child(2) {
+    font-size: 19px;
+    width: 200px;
+}
+p:nth-child(3) {
+    font-size: 23px;
+    width: 300px;
+}
+h2:nth-child(1) {
+    color: crimson;
+}
+
+p:nth-child(4) {
+    font-size: 2.3vw;
+}
+.relative-container {
+    width: 70%;
+}
+
+.relative-container p:nth-child(1) {
+    font-size: 1.3em;
+}
