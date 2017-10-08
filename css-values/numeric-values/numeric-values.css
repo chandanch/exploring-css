@@ -59,3 +59,17 @@ p:nth-child(4) {
     animation-timing-function: linear;
     animation-iteration-count: 5;
 }
+
+/**
+* Percentages
+*/
+.percentage-container {
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    font-size: 2em;
+}
+.percentage-container .percentage-container1 {
+    background-color: #ee9b2d;
+    width: 94%;
+}
