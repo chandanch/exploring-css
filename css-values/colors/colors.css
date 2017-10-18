@@ -46,3 +46,10 @@
 body > div {
     margin: 4px;
 }
+.hsl-container {
+    border: 2px dashed hsl(120, 100%, 50%);
+}
+
+.hsl-container p:nth-of-type(1) {
+    color: hsl(225, 68%, 70%);
+}
