@@ -1,3 +1,36 @@
 .color-keywords {
     background-color: cornflowerblue;
 }
+.hex-container {
+    border: 2px dashed #eea019;
+}
+.hex-heading {
+    color: #4c4194;
+}
+.hex-container p:nth-child(odd) {
+    color: #ee2031;
+}
+.hex-container p:nth-child(even):hover {
+    color: #ee9518;
+    animation-name: changebg;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 2;
+}
+
+@keyframes changebg {
+    0% {
+        color: #3d1dee;
+        font-size: 14pt;
+    }
+
+    25% {
+        color: #21ee28;
+        font-size: 23pt;
+    }
+
+    100% {
+        color: #4c4194;
+        font-size: 12pt;
+    }
+}
