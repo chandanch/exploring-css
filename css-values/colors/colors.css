@@ -3,21 +3,21 @@
 }
 .hex-container {
     border: 2px dashed #eea019;
+
 }
 .hex-heading {
     color: #4c4194;
 }
-.hex-container p:nth-child(odd) {
+.hex-container p:nth-child(2) {
     color: #ee2031;
 }
-.hex-container p:nth-child(even):hover {
+.hex-container p:nth-child(3):hover {
     color: #ee9518;
     animation-name: changebg;
     animation-duration: 3s;
     animation-timing-function: linear;
     animation-iteration-count: 2;
 }
-
 @keyframes changebg {
     0% {
         color: #3d1dee;
@@ -33,4 +33,16 @@
         color: #4c4194;
         font-size: 12pt;
     }
+}
+.rgb-container {
+    border: 2px dashed #9842ee;
+}
+.rgb-container p:nth-of-type(1) {
+    color: rgb(255,45,0);
+}
+.rgb-container P:nth-of-type(2) {
+    color: rgb(255,122,0);
+}
+body > div {
+    margin: 4px;
 }
