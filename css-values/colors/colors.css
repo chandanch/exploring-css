@@ -53,3 +53,20 @@ body > div {
 .hsl-container p:nth-of-type(1) {
     color: hsl(225, 68%, 70%);
 }
+.alpha-container > h2 {
+    background-color: rgba(122, 233, 23, 0.3);
+}
+.alpha-container > h2 + p {
+    background-color: rgba(233, 45, 0, 0.3);
+    width: 800px;
+    height: 100px;
+    position: relative;
+
+}
+.alpha-container > h2 + p + p {
+    background-color: rgba(23, 255, 122, 0.3);
+    width: 800px;
+    height: 100px;
+    position: relative;
+    bottom: 75px;
+}
