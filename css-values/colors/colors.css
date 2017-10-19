@@ -84,4 +84,38 @@ body > div {
     background-color: rgb(200, 122, 45);
     opacity: 0.4;
 }
+@keyframes changeOpacity {
+    0% {
+        opacity: 1;
+    }
 
+    20% {
+        opacity: 0.8;
+        transform: scaleY(4);
+    }
+
+    40% {
+        opacity: 0.5;
+    }
+
+    60% {
+        opacity: 0.4;
+    }
+
+    80% {
+        opacity: 0.2;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+.opacity-animation-container {
+    border: 2px solid #9842ee;
+    color: #1d70ee;
+}
+.opacity-animation-container h2:hover {
+    animation-name: changeOpacity;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
