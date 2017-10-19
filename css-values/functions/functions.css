@@ -1,0 +1,10 @@
+div {
+    background-color: hsla(155, 0%, 80%, 0.8);
+    width: calc(100% - 34px);
+}
+div > h2 {
+    color: rgb(89, 45, 200);
+}
+body {
+    background-image: url('https://images.freecreatives.com/wp-content/uploads/2016/03/Free-Material-Design-Background-For-You.jpg');
+}
