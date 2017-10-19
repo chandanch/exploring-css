@@ -53,6 +53,10 @@ body > div {
 .hsl-container p:nth-of-type(1) {
     color: hsl(225, 68%, 70%);
 }
+.alpha-container {
+    border: 2px dotted #3d1dee;
+    height: 100%
+}
 .alpha-container > h2 {
     background-color: rgba(122, 233, 23, 0.3);
 }
@@ -70,3 +74,14 @@ body > div {
     position: relative;
     bottom: 75px;
 }
+.opacity-container {
+    border: 2px dotted #ee2031;
+}
+.opacity-container > h2 {
+    color: #45d7ed;
+}
+.opacity-container > h2 + p {
+    background-color: rgb(200, 122, 45);
+    opacity: 0.4;
+}
+
