@@ -16,3 +16,41 @@ p{
 .importance-container {
    border: 3px solid;
 }
+
+/* Specificity 0003 */
+div div p {
+    color: #ee2031;
+}
+
+/* Specificity:  0021 */
+div .specificity-content .specificity-text {
+    color: #ee9b2d;
+}
+
+/* Specificity: 0111 */
+#specificityContainer div .specificity-text {
+    color: #9842ee;
+}
+
+/* 0210 */
+#specificityContainer #specificityContent .specificity-text {
+    color: #1d70ee;
+}
+
+/* Specificity: 0010 */
+.specificity-container {
+    border: 3px solid crimson;
+}
+
+/* Specificity: 0100 */
+#specificityContainer {
+    border: 2px solid #ee811f;
+    position: relative;
+    top: 24px;
+}
+
+/* Specificity: 0101 */
+body #specificityContainer {
+    position: relative;
+    top: 4px;
+}
