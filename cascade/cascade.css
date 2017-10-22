@@ -1,0 +1,19 @@
+.importance-paragragh {
+    background-color: #9197ee;
+    color: #fff !important;
+    font-family: "Bell MT";
+}
+#second {
+    background-color: #ee9b2d;
+    color: #000;
+    font-size: 17pt;
+}
+p{
+    padding: 4px;
+    font-size: 14pt;
+    font-family: Harrington !important;
+}
+.importance-container {
+    border: 4px;
+    border-style: solid;
+}
