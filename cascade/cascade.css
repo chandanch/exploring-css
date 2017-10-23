@@ -54,3 +54,28 @@ body #specificityContainer {
     position: relative;
     top: 4px;
 }
+
+/* source order specificity: 0010 */
+.source-order-container {
+    border: 2px solid #3d1dee;
+    position: relative;
+    top: 8px;
+}
+
+/* source order specificity: 0010 same as above. This wins because of source order*/
+.source-order-container {
+    border: 2px solid #4c4194;
+
+}
+
+/* specificity: 0011 */
+.source-order-container p {
+    color: #387EF5;
+    background: #d5d8f9;
+}
+
+/* specificity: 0010 */
+.source-order-content {
+    text-decoration: underline;
+    color: #ee2031;
+}
