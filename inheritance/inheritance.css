@@ -1,0 +1,21 @@
+body {
+    color: #f57f1c;
+    font-family: Harrington;
+    font-size: 1.3vw;
+}
+
+.inherit {
+    font-family: "Bell MT";
+}
+.inherit a {
+  color: inherit;
+  font-family: inherit;
+}
+
+.initial a {
+    color: initial;
+}
+
+.unset a {
+    color: unset;
+}
