@@ -1,0 +1,24 @@
+div {
+    margin: 40px;
+    width: 500px;
+    height: 60px;
+    border: 2px solid #4c4194;
+}
+
+.overflow-visible {
+
+    overflow: visible;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.overflow-auto {
+    overflow: auto;
+}
+
+
+h2 {
+    color: #1d70ee;
+}
