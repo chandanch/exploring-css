@@ -18,7 +18,28 @@ div {
     overflow: auto;
 }
 
+.overflow-scroll {
+    overflow: scroll;
+}
+
+.display-block {
+    display: block;
+}
+
+.display-inline {
+    display: inline;
+    background: yellow;
+}
+.display-inline:after {
+    content: " chandach";
+}
+
 
 h2 {
     color: #1d70ee;
+}
+
+section {
+    border: 2px solid #9197ee;
+    margin: 34px;
 }
