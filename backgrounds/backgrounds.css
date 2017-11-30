@@ -1,0 +1,17 @@
+body {
+    background-color: white;
+}
+
+#color {
+    padding: 20px;
+    background-color: yellow;
+}
+
+#image {
+    padding: 20px;
+    background-color: #ffe20e;
+    background-image: url("https://www.brandcrowd.com/gallery/brands/pictures/picture14709516689348.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 74px;
+}
