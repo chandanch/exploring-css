@@ -15,3 +15,24 @@ body {
     background-position: right center;
     background-size: 74px;
 }
+div {
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+    margin: 4px;
+}
+section #firstDiv {
+    background-image: linear-gradient(to bottom, orange, yellow);
+}
+
+section #secondDiv {
+    background-image: linear-gradient(to right, #14a2ff, #84fdff);
+}
+
+section #thirdDiv {
+    background-image: linear-gradient(to bottom, green, blue 80%, #fff);
+}
+
+section #fourthDiv {
+    background-image: repeating-linear-gradient(to left, green, red 10px, yellow 60px);
+}
