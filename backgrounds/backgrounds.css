@@ -36,3 +36,7 @@ section #thirdDiv {
 section #fourthDiv {
     background-image: repeating-linear-gradient(to left, green, red 10px, yellow 60px);
 }
+
+#shorthand {
+    background: #4c4194 linear-gradient(to right, yellow, green 50%, #387EF5) no-repeat left center;
+}
