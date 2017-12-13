@@ -59,4 +59,6 @@ div {
     border-image-source: url("https://mdn.mozillademos.org/files/13060/border-image.png");
     border-image-slice: 40;
     border-image-repeat: round;
+    border-image-width: 20px;
+    /*border-image-outset: 5px;*/
 }
