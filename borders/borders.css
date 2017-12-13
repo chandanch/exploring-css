@@ -17,10 +17,46 @@ div {
     border: 2px dashed;
 }
 
+/**
+    makes all the 4 corners round
+ */
 .radius {
     border-radius: 20px;
 }
 
-.radius-corner {
+/**
+    First value: top-left & bottom-right
+    Second value: top-right & bottom-left
+ */
+.radius-corner-2 {
     border-radius: 12px 32px;
+}
+/**
+    First value: top-left
+    Second Value: top-right & bottom-left
+    third value: bottom-right
+ */
+.radius-corner-3 {
+    border-radius: 12px 23px 44px;
+}
+/**
+    top-left top-right bottom-right bottom-left
+ */
+.radius-corner-4 {
+    border-radius: 23px 34px 10px 44px;
+}
+
+.radius-longhand {
+    border-top-left-radius: 23px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 16em;
+}
+
+.border-image {
+    border: 20px solid black;
+    background-clip: padding-box;
+    border-image-source: url("https://mdn.mozillademos.org/files/13060/border-image.png");
+    border-image-slice: 40;
+    border-image-repeat: round;
 }
