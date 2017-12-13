@@ -1,0 +1,26 @@
+div {
+    width: 200px;
+    /*height: 200px;*/
+    background-color: #14a2ff;
+    text-align: center;
+    margin: 10px;
+    padding: 30px;
+    line-height: 2;
+    display: inline-block;
+    /*color: white;*/
+}
+.chap1 {
+    border: 2px solid;
+}
+
+.chap2 {
+    border: 2px dashed;
+}
+
+.radius {
+    border-radius: 20px;
+}
+
+.radius-corner {
+    border-radius: 12px 32px;
+}
