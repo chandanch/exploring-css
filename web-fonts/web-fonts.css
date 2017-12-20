@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'pacifico';
+    src: url('../fonts/Pacifico-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'nunito';
+    src: url('../fonts/NunitoSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'yanone';
+    src: url('../fonts/YanoneKaffeesatz-Regular.ttf') format('truetype');
+}
+
+h1 {
+    font-family: pacifico, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    font-family: yanone, 'Trebuchet MS', sans-serif;
+    font-size: 1.3em;
+}
