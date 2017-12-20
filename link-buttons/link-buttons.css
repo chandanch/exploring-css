@@ -1,0 +1,35 @@
+ul {
+    width: 100%;
+    padding: 0;
+}
+
+li {
+    display: inline
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    width: 19.5%;
+    margin: 1px;
+    line-height: 3;
+    text-align: center;
+    display: inline-block;
+}
+li:last-child a {
+    margin-right: 0;
+}
+
+a:link, a:focus {
+    background-color: #1d70ee;
+
+}
+
+a:hover {
+    background-color: #9842ee;
+}
+
+a:active {
+    color: black;
+    background-color: #97eed6;
+}
