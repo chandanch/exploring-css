@@ -9,6 +9,13 @@
 }
 
 @font-face {
+    font-family: 'nunito';
+    src: url('../fonts/NunitoSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'yanone';
     src: url('../fonts/YanoneKaffeesatz-Regular.ttf') format('truetype');
 }
@@ -20,4 +27,8 @@ h1 {
 p {
     font-family: yanone, 'Trebuchet MS', sans-serif;
     font-size: 1.3em;
+}
+
+.bold-text {
+    font-weight: bold;
 }
