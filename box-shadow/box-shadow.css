@@ -30,3 +30,9 @@ p {
 .inner-shadow {
     box-shadow: inset 12px 13px 4px rgba(0, 0, 0, 0.7);
 }
+
+.spread-radius {
+    margin: 16px;
+    /*spread radius*/
+    box-shadow: 5px 5px 12px 16px rgba(0,0,0,0.7);
+}
