@@ -26,3 +26,7 @@ p {
                 25px 5px 1px green,
                 30px 6px 1px yellow;
 }
+
+.inner-shadow {
+    box-shadow: inset 12px 13px 4px rgba(0, 0, 0, 0.7);
+}
